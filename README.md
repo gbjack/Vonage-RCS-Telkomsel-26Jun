@@ -1,1 +1,1 @@
-Vonage RCS Telkomsel
+Vonage RCS Telkomsel 26 June. (2 corrupted Vercel builds)
