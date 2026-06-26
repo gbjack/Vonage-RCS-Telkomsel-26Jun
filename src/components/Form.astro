@@ -50,39 +50,42 @@
       type="email"
     />
   </div>
-  <div>
-    <label for="countryCode">
-      Country Code<!-- -->
-    </label>
-    <span>
-        <select id="fieldtdtydhl" name="cm-fo-tdtydhl" required="">
-            <option value="2484273">+65 (SG)</option>
-            <option value="2484274">+60 (MY)</option
-            ><option value="2484275" selected>+62 (ID)</option>
-            <option value="2484276">+63 (PH)</option>
-            <option value="2484277">+66 (TH)</option>
-            <option value="2484278">+84 (VN)</option
-            ><option value="2484279">+86 (CN)</option>
-            <option value="2484280">+852 (HK)</option>
-            <option value="2484281">+61 (AU)</option><option value="2484282">+64 (NZ)</option>
-            <option value="2484283">+91 (IN)</option><option value="2484284">+81 (JP)</option>
-            <option value="2484285">+82 (KR)</option><option value="2484286">+1 (US/CA)</option>
-            <option value="2484287">+44 (UK)</option>
-        </select>
-    </span>
-  </div>
-  <div>
-    <label for="fieldtdtydhr">
-      Phone Number<!-- -->
-    </label>
-    <input
-      id="fieldtdtydhr"
-      maxlength="200"
-      name="cm-f-tdtydhr"
-      required=""
-      type="number"
-      class="no-number-spinner"
-    />
+  <div class="flex flex-col lg:flex-row gap-2 space-y-4">
+    <div class="shrink-0">
+      <label for="countryCode">
+        Country Code<!-- -->
+      </label>
+      <span>
+          <select id="fieldtdtydhl" name="cm-fo-tdtydhl" required="">
+              <option value="2484273">+65 (SG)</option>
+              <option value="2484274">+60 (MY)</option
+              ><option value="2484275" selected>+62 (ID)</option>
+              <option value="2484276">+63 (PH)</option>
+              <option value="2484277">+66 (TH)</option>
+              <option value="2484278">+84 (VN)</option
+              ><option value="2484279">+86 (CN)</option>
+              <option value="2484280">+852 (HK)</option>
+              <option value="2484281">+61 (AU)</option><option value="2484282">+64 (NZ)</option>
+              <option value="2484283">+91 (IN)</option><option value="2484284">+81 (JP)</option>
+              <option value="2484285">+82 (KR)</option><option value="2484286">+1 (US/CA)</option>
+              <option value="2484287">+44 (UK)</option>
+          </select>
+      </span>
+    </div>
+  
+    <div class="flex-1">
+      <label for="fieldtdtydhr">
+        Phone Number<!-- -->
+      </label>
+      <input
+        id="fieldtdtydhr"
+        maxlength="200"
+        name="cm-f-tdtydhr"
+        required=""
+        type="number"
+        class="no-number-spinner"
+      />
+    </div>
   </div>
   <div class="flex gap-3">
     <div class="flex items-start gap-2">
