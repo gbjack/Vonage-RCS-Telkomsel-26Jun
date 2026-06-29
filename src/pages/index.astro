@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import Form from "../components/Form.astro";
 import Cards from "../components/Cards.astro";
 import Venue from "../components/Venue.astro";
+import Agenda from "../components/Agenda.astro";
 ---
 
 <Layout>
@@ -152,125 +153,10 @@ import Venue from "../components/Venue.astro";
             necessary.
           </p>
         </div>
-        <div
-          class="w-full pt-4 md:pt-6"
-          data-usal="fade-u duration-300 delay-200"
-        >
-          <div
-            class="flex flex-col md:flex-row items-center gap-0 md:gap-4 px-4 py-8 rounded-lg hover:bg-gray-1 transition-colors duration-500"
-          >
-            <h4
-              class="text-black font-semibold text-nowrap text-sm md:text-base leading-none m-0"
-            >
-              10:00 - 10:30
-            </h4>
-            <h4
-              class="text-black font-semibold text-base md:text-lg leading-none m-0"
-            >
-              Registration & Welcome Refreshments
-            </h4>
-          </div>
-          <div
-            class="flex flex-col md:flex-row items-center gap-0 md:gap-4 px-4 py-8 rounded-lg hover:bg-gray-1 transition-colors duration-500"
-          >
-            <h4
-              class="text-black font-semibold text-nowrap text-sm md:text-base leading-none m-0"
-            >
-              10:30 - 10:30
-            </h4>
-            <h4
-              class="text-black font-semibold text-base md:text-lg leading-none m-0"
-            >
-              Opening Remarks
-            </h4>
-          </div>
-          <div
-            class="flex flex-col md:flex-row items-center gap-0 md:gap-4 px-4 py-8 rounded-lg hover:bg-gray-1 transition-colors duration-500"
-          >
-            <h4
-              class="text-black font-semibold text-nowrap text-sm md:text-base leading-none m-0"
-            >
-              10:45 - 11:15
-            </h4>
-            <h4
-              class="text-black font-semibold text-base md:text-lg leading-none m-0"
-            >
-              Vonage Global RCS Market Update
-            </h4>
-          </div>
-          <div
-            class="flex flex-col md:flex-row items-center gap-0 md:gap-4 px-4 py-8 rounded-lg hover:bg-gray-1 transition-colors duration-500"
-          >
-            <h4
-              class="text-black font-semibold text-nowrap text-sm md:text-base leading-none m-0"
-            >
-              11:15 - 11:45
-            </h4>
-            <h4
-              class="text-black font-semibold text-base md:text-lg leading-none m-0"
-            >
-              TBA
-            </h4>
-          </div>
-          <div
-            class="flex flex-col md:flex-row items-center gap-0 md:gap-4 px-4 py-8 rounded-lg hover:bg-gray-1 transition-colors duration-500"
-          >
-            <h4
-              class="text-black font-semibold text-nowrap text-sm md:text-base leading-none m-0"
-            >
-              11:45 - 12:00
-            </h4>
-            <h4
-              class="text-black font-semibold text-base md:text-lg leading-none m-0"
-            >
-              Coffee Break
-            </h4>
-          </div>
-          <div
-            class="flex flex-col md:flex-row items-center gap-0 md:gap-4 px-4 py-8 rounded-lg hover:bg-gray-1 transition-colors duration-500"
-          >
-            <h4
-              class="text-black font-semibold text-nowrap text-sm md:text-base leading-none m-0"
-            >
-              12:00 - 12:45
-            </h4>
-            <h4
-              class="text-black font-semibold text-base md:text-lg leading-none m-0"
-            >
-              Vonage Live RCS Demo
-            </h4>
-          </div>
-          <div
-            class="flex flex-col md:flex-row items-center gap-0 md:gap-4 px-4 py-8 rounded-lg hover:bg-gray-1 transition-colors duration-500"
-          >
-            <h4
-              class="text-black font-semibold text-nowrap text-sm md:text-base leading-none m-0"
-            >
-              12:45 - 13:15
-            </h4>
-            <h4
-              class="text-black font-semibold text-base md:text-lg leading-none m-0"
-            >
-              Q&A
-            </h4>
-          </div>
-          <div
-            class="flex flex-col md:flex-row items-center gap-0 md:gap-4 px-4 py-8 rounded-lg hover:bg-gray-1 transition-colors duration-500"
-          >
-            <h4
-              class="text-black font-semibold text-nowrap text-sm md:text-base leading-none m-0"
-            >
-              13:15 - 15:00
-            </h4>
-            <h4
-              class="text-black font-semibold text-base md:text-lg leading-none m-0"
-            >
-              Lunch & Networking
-            </h4>
-          </div>
-        </div>
+        <Agenda />
       </div>
     </section>
+    
     <section class="bg-linear-to-br from-gray-3/10 via-white to-gray-1 py-20">
       <div
         class="container text-center mySpace-y"
@@ -278,11 +164,11 @@ import Venue from "../components/Venue.astro";
       >
         <h3>Meet Our Expert Speakers</h3>
         <p>Industry leaders sharing insights on the future of RCS messaging</p>
-          <Cards />
+        <Cards />
       </div>
     </section>
 
-    
+    <Venue />
 
     <footer class="bg-black py-8">
       <div
