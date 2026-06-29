@@ -2,10 +2,8 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Form from "../components/Form.astro";
+import Cards from "../components/Cards.astro";
 import Venue from "../components/Venue.astro";
-import { Image } from "astro:assets";
-import speaker1 from "../assets/images/Speaker_DavidBenjamin.jpg";
-import speaker2 from "../assets/images/Speaker_Mahendra.jpg";
 ---
 
 <Layout>
@@ -280,74 +278,7 @@ import speaker2 from "../assets/images/Speaker_Mahendra.jpg";
       >
         <h3>Meet Our Expert Speakers</h3>
         <p>Industry leaders sharing insights on the future of RCS messaging</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-          <!-- Cards 1 -->
-          <div
-            class="group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
-            data-usal="fade-u duration-300 delay-200"
-          >
-            <div
-              class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
-            >
-              <Image
-                src={speaker1}
-                alt="Speaker David Benjamin"
-                width="1182"
-                height="1330"
-                layout="constrained"
-                decoding="async"
-                loading="lazy"
-                class="object-cover w-full h-full"
-              />
-            </div>
-            <div>
-              <div class="w-full rounded-lg p-4">
-                <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
-                  David Creasey-Benjamin
-                </h4>
-                <p
-                  class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
-                >
-                  Strategic Account<br />Manager
-                </p>
-                <p class="text-sm text-black font-medium">Vonage</p>
-              </div>
-            </div>
-          </div>
-          <!--Cards 2-->
-          <div
-            class="group flex flex-col items-center text-center bg-white pt-4 rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
-            data-usal="fade-u duration-300 delay-400"
-          >
-            <div
-              class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
-            >
-              <Image
-                src={speaker2}
-                alt="Speaker Mahendra Mane"
-                width="800"
-                height="800"
-                layout="constrained"
-                decoding="async"
-                loading="lazy"
-                class="object-cover w-full h-full"
-              />
-            </div>
-            <div>
-              <div class="w-full rounded-lg p-4">
-                <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
-                  Mahendra Mane
-                </h4>
-                <p
-                  class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
-                >
-                  Customer Solution <br /> Architect
-                </p>
-                <p class="text-sm text-black font-medium">Vonage</p>
-              </div>
-            </div>
-          </div>
-        </div>
+          <Cards />
       </div>
     </section>
 
