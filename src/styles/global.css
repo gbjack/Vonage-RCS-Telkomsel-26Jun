@@ -61,7 +61,7 @@
     --color-peach: #ffa68c;
 
     --h1: clamp(2.25rem, 1.5rem + 3.5vw, 3.5rem);
-    --h2: clamp(1.25rem, 0.708rem + 2.41vw, 2.25rem);
+    --h2: clamp(1.5rem, 1rem + 2.5vw, 2.5rem);
     --h3: clamp(1.25rem, 0.75rem + 2.41vw, 1.75rem);
     --h4: clamp(1rem, 0.5rem + 2.41vw, 1.25rem);
     --p: 1.125rem;
