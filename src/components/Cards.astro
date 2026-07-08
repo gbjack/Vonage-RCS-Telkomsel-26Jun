@@ -1,26 +1,94 @@
 ---
 import { Image } from "astro:assets";
-import speaker1 from "../assets/images/Speaker_Arief.png";
+import speaker1 from "../assets/images/Speaker_Pak Aun Abdul Wadud.png";
 import speaker2 from "../assets/images/Speaker_Gautam Prakash.png";
 import speaker3 from "../assets/images/Speaker_Suzanna.png";
 import speaker4 from "../assets/images/Speaker_DavidBenjamin.jpg";
 import speaker5 from "../assets/images/Speaker_Mahendra.jpg";
-
-
+import speaker6 from "../assets/images/dennyGalant.png";
 ---
-<div class="flex flex-wrap justify-center gap-4 md:gap-6">
 
-    <!--Cards 1-->
+<div class="flex flex-wrap justify-center gap-4 md:gap-6">
+  <!-- Card -->
   <div
-    class="w-full sm:w-[45%] md:w-[30%] group flex flex-col items-center text-center bg-white pt-4 rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
+    class="w-full sm:w-[45%] lg:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
     data-usal="fade-u duration-300 delay-200"
   >
     <div
       class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
     >
       <Image
-        src={speaker1}
-        alt="Speaker Arief Pradetya"
+        src={speaker4}
+        alt="Speaker David Creasey-Benjamin"
+        width="1182"
+        height="1330"
+        layout="constrained"
+        decoding="async"
+        loading="lazy"
+        class="object-cover w-full h-full"
+      />
+    </div>
+    <div>
+      <div class="w-full rounded-lg p-4">
+        <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
+          David Creasey-Benjamin
+        </h4>
+        <p
+          class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
+        >
+          Strategic Account<br />Manager
+        </p>
+        <p class="text-sm text-black font-medium">Vonage</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card -->
+  <div
+    class="w-full sm:w-[45%] lg:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
+    data-usal="fade-u duration-300 delay-200"
+  >
+    <div
+      class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
+    >
+      <Image
+        src={speaker6}
+        alt="Speaker Mahendra Mane"
+        width="800"
+        height="800"
+        layout="constrained"
+        decoding="async"
+        loading="lazy"
+        class="object-cover w-full h-full"
+      />
+    </div>
+    <div>
+      <div class="w-full rounded-lg p-4">
+        <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
+          Denny Galant
+        </h4>
+        <p
+          class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
+        >
+          Head of Indonesia & Emerging South East Asia, Android Platforms &
+          Devices
+        </p>
+        <p class="text-sm text-black font-medium">Google</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card -->
+  <div
+    class="w-full sm:w-[45%] lg:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
+    data-usal="fade-u duration-300 delay-200"
+  >
+    <div
+      class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
+    >
+      <Image
+        src={speaker2}
+        alt="Speaker Gautam Prakash"
         width="1182"
         height="1497"
         layout="constrained"
@@ -32,56 +100,95 @@ import speaker5 from "../assets/images/Speaker_Mahendra.jpg";
     <div>
       <div class="w-full rounded-lg p-4">
         <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
-          Arief Pradetya
+          Gautam Prakash
         </h4>
         <p
           class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
         >
-          VP Digital Advertising, Wholesale and Interconnect PT Telekomunikasi
-          Selular
+          Head of Sales SEA/ANZ
         </p>
-        <p class="text-sm text-black font-medium">Telkomsel</p>
+        <p class="text-sm text-black font-medium">Vonage</p>
       </div>
     </div>
   </div>
 
-    <!-- Cards 2 -->
-    <div class="w-full sm:w-[45%] md:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500" data-usal="fade-u duration-300 delay-200">
+  <!-- Card -->
+  <div
+    class="w-full sm:w-[45%] lg:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
+    data-usal="fade-u duration-300 delay-200"
+  >
     <div
-        class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
+      class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
     >
-        <Image
-        src={speaker2}
-        alt="Speaker Gautam Prakash"
+      <Image
+        src={speaker5}
+        alt="Speaker Mahendra Mane"
+        width="800"
+        height="800"
+        layout="constrained"
+        decoding="async"
+        loading="lazy"
+        class="object-cover w-full h-full"
+      />
+    </div>
+    <div>
+      <div class="w-full rounded-lg p-4">
+        <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
+          Mahendra Mane
+        </h4>
+        <p
+          class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
+        >
+          APAC Technical Solutions Manager
+        </p>
+        <p class="text-sm text-black font-medium">Vonage</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card -->
+  <div
+    class="w-full sm:w-[45%] lg:w-[30%] group flex flex-col items-center text-center bg-white pt-4 rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
+    data-usal="fade-u duration-300 delay-200"
+  >
+    <div
+      class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
+    >
+      <Image
+        src={speaker1}
+        alt="Speaker Pak Aun Abdul Wadud"
         width="1182"
         height="1497"
         layout="constrained"
         decoding="async"
         loading="lazy"
         class="object-cover w-full h-full"
-        />
+      />
     </div>
     <div>
-        <div class="w-full rounded-lg p-4">
-            <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
-                Gautam Prakash
-            </h4>
-            <p
-                class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
-            >
-                Head of Sales SEA/ANZ
-            </p>
-            <p class="text-sm text-black font-medium">Vonage</p>
-            </div>
-        </div>
+      <div class="w-full rounded-lg p-4">
+        <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
+          Pak Aun Abdul Wadud
+        </h4>
+        <p
+          class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
+        >
+          SVP - Core ICT B2B Product at <br />Enterprise Business
+        </p>
+        <p class="text-sm text-black font-medium">Indosat</p>
+      </div>
     </div>
+  </div>
 
-    <!-- Cards 3 -->
-    <div class="w-full sm:w-[45%] md:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500" data-usal="fade-u duration-300 delay-200">
+  <!-- Cards -->
+  <div
+    class="w-full sm:w-[45%] lg:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
+    data-usal="fade-u duration-300 delay-200"
+  >
     <div
-        class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
+      class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
     >
-        <Image
+      <Image
         src={speaker3}
         alt="Speaker Suzanna Buniardi"
         width="1182"
@@ -90,82 +197,20 @@ import speaker5 from "../assets/images/Speaker_Mahendra.jpg";
         decoding="async"
         loading="lazy"
         class="object-cover w-full h-full"
-        />
+      />
     </div>
     <div>
-        <div class="w-full rounded-lg p-4">
-            <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
-                Suzanna Buniardi
-            </h4>
-            <p
-                class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
-            >
-                Country Manager - Indonesia
-            </p>
-            <p class="text-sm text-black font-medium">Vonage</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Cards 4 -->
-    <div class="w-full sm:w-[45%] md:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500" data-usal="fade-u duration-300 delay-200">
-    <div
-        class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
-    >
-        <Image
-        src={speaker4}
-        alt="Speaker David Creasey-Benjamin"
-        width="1182"
-        height="1330"
-        layout="constrained"
-        decoding="async"
-        loading="lazy"
-        class="object-cover w-full h-full"
-        />
-    </div>
-    <div>
-        <div class="w-full rounded-lg p-4">
-            <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
-                David Creasey-Benjamin
-            </h4>
-            <p
-                class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
-            >
-                Strategic Account<br>Manager
-            </p>
-            <p class="text-sm text-black font-medium">Vonage</p>
-            </div>
-        </div>
-    </div>
-
-    <!--Cards 5-->
-    <div class="w-full sm:w-[45%] md:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500" data-usal="fade-u duration-300 delay-200">
-        <div
-            class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
+      <div class="w-full rounded-lg p-4">
+        <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
+          Suzanna Buniardi
+        </h4>
+        <p
+          class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
         >
-            <Image
-            src={speaker5}
-            alt="Speaker Mahendra Mane"
-            width="800"
-            height="800"
-            layout="constrained"
-            decoding="async"
-            loading="lazy"
-            class="object-cover w-full h-full"
-            />
-        </div>
-        <div>
-            <div class="w-full rounded-lg p-4">
-                <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
-                    Mahendra Mane
-                </h4>
-                <p
-                    class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
-                >
-                    APAC Technical Solutions Manager
-                </p>
-                <p class="text-sm text-black font-medium">Vonage</p>
-            </div>
-        </div>
+          Country Manager - Indonesia
+        </p>
+        <p class="text-sm text-black font-medium">Vonage</p>
+      </div>
     </div>
+  </div>
 </div>
