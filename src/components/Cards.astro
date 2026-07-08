@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import speaker1 from "../assets/images/Speaker_Pak Aun Abdul Wadud.png";
+import speaker1 from "../assets/images/Speaker_Arief.png";
 import speaker2 from "../assets/images/Speaker_Gautam Prakash.png";
 import speaker3 from "../assets/images/Speaker_Suzanna.png";
 import speaker4 from "../assets/images/Speaker_DavidBenjamin.jpg";
@@ -9,6 +9,41 @@ import speaker6 from "../assets/images/dennyGalant.png";
 ---
 
 <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+  <!-- Card -->
+  <div
+    class="w-full sm:w-[45%] lg:w-[30%] group flex flex-col items-center text-center bg-white pt-4 rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
+    data-usal="fade-u duration-300 delay-200"
+  >
+    <div
+      class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
+    >
+      <Image
+        src={speaker1}
+        alt="Speaker Arief Pradetya"
+        width="1182"
+        height="1497"
+        layout="constrained"
+        decoding="async"
+        loading="lazy"
+        class="object-cover w-full h-full"
+      />
+    </div>
+    <div>
+      <div class="w-full rounded-lg p-4">
+        <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
+          Arief Pradetya
+        </h4>
+        <p
+          class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
+        >
+          VP Digital Advertising, <br />Wholesale and Interconnect <br />PT
+          Telekomunikasi Selular
+        </p>
+        <p class="text-sm text-black font-medium">Telkomsel</p>
+      </div>
+    </div>
+  </div>
+
   <!-- Card -->
   <div
     class="w-full sm:w-[45%] lg:w-[30%] group flex flex-col items-center bg-white pt-4 text-center rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
@@ -142,40 +177,6 @@ import speaker6 from "../assets/images/dennyGalant.png";
           APAC Technical Solutions Manager
         </p>
         <p class="text-sm text-black font-medium">Vonage</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Card -->
-  <div
-    class="w-full sm:w-[45%] lg:w-[30%] group flex flex-col items-center text-center bg-white pt-4 rounded-lg shadow-md hover:shadow-xl transition-all duration-500"
-    data-usal="fade-u duration-300 delay-200"
-  >
-    <div
-      class="relative w-[clamp(160px,120px+10vw,208px)] h-[clamp(160px,120px+10vw,208px)] rounded-full overflow-hidden mb-4 shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-500"
-    >
-      <Image
-        src={speaker1}
-        alt="Speaker Pak Aun Abdul Wadud"
-        width="1182"
-        height="1497"
-        layout="constrained"
-        decoding="async"
-        loading="lazy"
-        class="object-cover w-full h-full"
-      />
-    </div>
-    <div>
-      <div class="w-full rounded-lg p-4">
-        <h4 class="font-bold text-lg md:text-xl mb-1 text-black">
-          Pak Aun Abdul Wadud
-        </h4>
-        <p
-          class="text-sm md:text-base text-gray-5 font-semibold leading-tight mb-1"
-        >
-          SVP - Core ICT B2B Product at <br />Enterprise Business
-        </p>
-        <p class="text-sm text-black font-medium">Indosat</p>
       </div>
     </div>
   </div>
